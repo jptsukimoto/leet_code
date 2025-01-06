@@ -1,14 +1,16 @@
 {
   "name": "leet_code",
   "version": "1.0.0",
-  "description": "",
+  "description": "Leet code challenges",
   "main": "",
   "scripts": {
     "test": "tsc && jest ./dist",
-    "covarage": "tsc && jest ./dist --coverage"
+    "covarage": "tsc && jest ./dist --coverage",
+    "start:challenge": "node run-challenge.js",
+    "test:challenge": "node run-challenge-test.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "João Paulo Tsukimoto",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.14",
